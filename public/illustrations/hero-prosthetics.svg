@@ -1,0 +1,10 @@
+<svg width="900" height="700" viewBox="0 0 900 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="700" rx="80" fill="#F1F6FF"/>
+  <circle cx="250" cy="220" r="120" fill="#D9EAFF"/>
+  <circle cx="650" cy="250" r="160" fill="#CCFBE9"/>
+  <rect x="220" y="320" width="460" height="200" rx="60" fill="#1F5FC9"/>
+  <rect x="270" y="360" width="360" height="120" rx="48" fill="#FBBF24"/>
+  <path d="M360 220C360 150 430 130 470 180C510 230 570 230 600 190" stroke="#1B335F" stroke-width="12" stroke-linecap="round"/>
+  <path d="M310 520C360 560 430 560 470 520" stroke="#1B335F" stroke-width="10" stroke-linecap="round"/>
+  <text x="310" y="310" fill="#1B335F" font-size="28" font-family="Arial">Proteses Inteligentes</text>
+</svg>

@@ -1,0 +1,46 @@
+[
+  {
+    "slug": "dra-helena-santos",
+    "name": "Dra. Helena Santos",
+    "title": "Cirurgiã Ortopedista",
+    "affiliation": "Hospital Sarah Brasilia",
+    "keynote": true,
+    "track": "Biomecanica",
+    "bio": "Especialista em cirurgias de revisao de protese total de quadril e pesquisa clinica em materiais biocompativeis.",
+    "topics": ["Protese de quadril", "Revisao", "Materiais avancados"],
+    "image": "/avatars/speaker-placeholder.svg"
+  },
+  {
+    "slug": "dr-marcos-almeida",
+    "name": "Dr. Marcos Almeida",
+    "title": "Engenheiro Biomedico",
+    "affiliation": "USP - Laboratorio de Reabilitacao",
+    "keynote": false,
+    "track": "Tecnologia Assistiva",
+    "bio": "Desenvolve sistemas de protese inteligente e analise de marcha com sensores vestiveis.",
+    "topics": ["Protese inteligente", "Sensores", "IA na reabilitacao"],
+    "image": "/avatars/speaker-placeholder.svg"
+  },
+  {
+    "slug": "dra-luiza-campos",
+    "name": "Dra. Luiza Campos",
+    "title": "Fisioterapeuta",
+    "affiliation": "Instituto de Reabilitacao Integrada",
+    "keynote": false,
+    "track": "Reabilitacao",
+    "bio": "Coordena programas de reabilitacao pos-cirurgica e retorno funcional de atletas.",
+    "topics": ["Reabilitacao acelerada", "Protocolos funcionais"],
+    "image": "/avatars/speaker-placeholder.svg"
+  },
+  {
+    "slug": "dr-renato-oliveira",
+    "name": "Dr. Renato Oliveira",
+    "title": "Ortopedista e Pesquisador",
+    "affiliation": "UNIFESP",
+    "keynote": true,
+    "track": "Ortopedia Avancada",
+    "bio": "Estuda novos materiais de fixacao e cirurgia minimamente invasiva para joelho.",
+    "topics": ["Protese de joelho", "Cirurgia guiada"],
+    "image": "/avatars/speaker-placeholder.svg"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "day": "Dia 1",
+    "dateLabel": "16 Ago",
+    "time": "08:30",
+    "room": "Auditorio Principal",
+    "title": "Abertura e panorama global da ortopedia",
+    "type": "Keynote",
+    "speakerSlug": "dra-helena-santos"
+  },
+  {
+    "day": "Dia 1",
+    "dateLabel": "16 Ago",
+    "time": "10:00",
+    "room": "Sala Tecnologia",
+    "title": "Protese inteligente e dados em tempo real",
+    "type": "Palestra",
+    "speakerSlug": "dr-marcos-almeida"
+  },
+  {
+    "day": "Dia 1",
+    "dateLabel": "16 Ago",
+    "time": "14:00",
+    "room": "Auditorio Principal",
+    "title": "Mesa redonda: futuro da reabilitacao",
+    "type": "Painel"
+  },
+  {
+    "day": "Dia 2",
+    "dateLabel": "17 Ago",
+    "time": "09:00",
+    "room": "Sala Clinica",
+    "title": "Protocolos de reabilitacao acelerada",
+    "type": "Workshop",
+    "speakerSlug": "dra-luiza-campos"
+  },
+  {
+    "day": "Dia 2",
+    "dateLabel": "17 Ago",
+    "time": "11:30",
+    "room": "Auditorio Principal",
+    "title": "Cirurgia guiada e novos materiais",
+    "type": "Keynote",
+    "speakerSlug": "dr-renato-oliveira"
+  },
+  {
+    "day": "Dia 3",
+    "dateLabel": "18 Ago",
+    "time": "09:30",
+    "room": "Sala Tecnologia",
+    "title": "Demonstracao de dispositivos e prototipos",
+    "type": "Demo"
+  },
+  {
+    "day": "Dia 3",
+    "dateLabel": "18 Ago",
+    "time": "15:00",
+    "room": "Auditorio Principal",
+    "title": "Encerramento e premios de inovacao",
+    "type": "Encerramento"
+  }
+]

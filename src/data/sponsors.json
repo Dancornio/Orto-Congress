@@ -1,0 +1,6 @@
+[
+  { "name": "OrthoLab", "tier": "Diamante", "logo": "/logos/partner-placeholder.svg" },
+  { "name": "BioMotion", "tier": "Ouro", "logo": "/logos/partner-placeholder.svg" },
+  { "name": "RehabTech", "tier": "Prata", "logo": "/logos/partner-placeholder.svg" },
+  { "name": "MoviCare", "tier": "Apoio", "logo": "/logos/partner-placeholder.svg" }
+]

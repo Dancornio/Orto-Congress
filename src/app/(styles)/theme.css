@@ -1,0 +1,16 @@
+.hero-grid {
+  background-image: radial-gradient(circle at 10% 10%, rgba(46, 121, 230, 0.12), transparent 45%),
+    radial-gradient(circle at 90% 20%, rgba(27, 163, 131, 0.14), transparent 48%),
+    linear-gradient(180deg, rgba(248, 251, 255, 1) 0%, rgba(240, 246, 255, 1) 100%);
+}
+
+.noise-overlay {
+  background-image: radial-gradient(rgba(15, 23, 42, 0.08) 1px, transparent 0);
+  background-size: 18px 18px;
+  opacity: 0.25;
+}
+
+.orb {
+  filter: blur(0px);
+  background: radial-gradient(circle at 30% 30%, rgba(251, 191, 36, 0.45), transparent 60%);
+}
