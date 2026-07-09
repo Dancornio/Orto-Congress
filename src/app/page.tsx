@@ -4,6 +4,7 @@ import SiteFooter from "@/app/(layouts)/SiteFooter";
 import SiteHeader from "@/app/(layouts)/SiteHeader";
 import AboutSection from "@/app/(sections)/AboutSection";
 import HeroSection from "@/app/(sections)/HeroSection";
+import IntroSection from "@/app/(sections)/IntroSection";
 import PricingSection from "@/app/(sections)/PricingSection";
 import ProgramSection from "@/app/(sections)/ProgramSection";
 import SpeakersSection from "@/app/(sections)/SpeakersSection";
@@ -19,6 +20,7 @@ export default function HomePage() {
       <SiteHeader />
       <main>
         <HeroSection />
+        <IntroSection />
         <AboutSection />
         <SpeakersSection />
         <ProgramSection />

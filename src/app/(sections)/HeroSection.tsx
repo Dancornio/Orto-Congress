@@ -18,7 +18,7 @@ export default function HeroSection() {
         >
           <p className="section-label">Congresso 2026</p>
           <h1 className="mt-4 text-4xl font-semibold text-slate-900 sm:text-5xl lg:text-6xl font-display">
-            Congresso Internacional de Ortopedia & Proteses 2026
+            ProTech: Tecnologia 2026: Congresso Internacional.
           </h1>
           <p className="mt-5 text-lg text-slate-600">
             {site.dateRange} · {site.city}
@@ -28,7 +28,7 @@ export default function HeroSection() {
             encontro que conecta ciencia, industria e cuidado humano.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
-            <ButtonLink href="#inscricao" variant="primary">
+            <ButtonLink href="/#inscricao" variant="primary">
               {site.heroCtas.primary}
             </ButtonLink>
             <ButtonLink href="/schedule" variant="ghost">
@@ -63,7 +63,7 @@ export default function HeroSection() {
               src="/illustrations/hero-prosthetics.svg"
               alt="Ilustracao de protese e reabilitacao"
               width={520}
-              height={480}
+              height={520}
               className="h-auto w-full"
               priority
             />

@@ -30,8 +30,8 @@ export default function SpeakersSection({ showAll = false }: { showAll?: boolean
       <div className="flex flex-wrap items-end justify-between gap-6">
         <SectionHeader
           eyebrow="Keynotes"
-          title="Especialistas e lideres da inovacao"
-          subtitle="Palestras internacionais com foco em tecnologia, reabilitacao e novos materiais."
+          title="Especialistas e lideres da inovação"
+          subtitle="Palestras internacionais com foco em tecnologia, reabilitação e novos materiais."
         />
         <div className="w-full max-w-xs">
           <SearchInput

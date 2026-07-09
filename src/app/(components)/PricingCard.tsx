@@ -17,8 +17,8 @@ export default function PricingCard({
   return (
     <div
       className={cn(
-        "flex h-full flex-col rounded-2xl border border-slate-100 bg-white p-6 shadow-card",
-        highlight ? "ring-2 ring-accent-400" : ""
+        "flex h-full flex-col rounded-2xl border border-slate-100 bg-white p-6 shadow-card transition-all duration-300",
+        "hover:border-accent-400 hover:ring-1 hover:ring-accent-400 hover:shadow-lg"
       )}
     >
       <div>

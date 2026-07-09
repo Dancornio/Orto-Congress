@@ -1,6 +1,6 @@
 export const site = {
   name: "Congresso Internacional de Ortopedia & Proteses 2026",
-  shortName: "Ortopedia & Proteses 2026",
+  shortName: "ProTech 2026",
   dateRange: "16-18 Ago 2026",
   city: "Brasilia, DF",
   venue: "Centro de Convencoes Ulysses Guimaraes",
@@ -16,14 +16,16 @@ export const site = {
 };
 
 export const navLinks = [
-  { label: "Sobre", href: "#sobre" },
-  { label: "Palestrantes", href: "#palestrantes" },
-  { label: "Programacao", href: "#programacao" },
-  { label: "Submissoes", href: "#submissoes" },
-  { label: "Inscricao", href: "#inscricao" },
-  { label: "Local", href: "#local" },
-  { label: "Patrocinadores", href: "#patrocinadores" },
-  { label: "Contato", href: "#contato" }
+  { label: "Sobre", href: "/#sobre" },
+  { label: "Palestrantes", href: "/#palestrantes" },
+  { label: "Programacao", href: "/#programacao" },
+  { label: "Minicursos", href: "/minicursos" },
+  { label: "Certificados", href: "/certificados" },
+  { label: "Submissoes", href: "/#submissoes" },
+  { label: "Inscricao", href: "/#inscricao" },
+  { label: "Local", href: "/#local" },
+  { label: "Patrocinadores", href: "/#patrocinadores" },
+  { label: "Contato", href: "/#contato" }
 ];
 
 export const socialLinks = [
