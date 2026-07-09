@@ -3,6 +3,8 @@ import { NextResponse } from "next/server";
 import { decryptSession } from "@/lib/auth";
 import pool from "@/lib/db";
 
+export const dynamic = "force-dynamic";
+
 export async function GET() {
   try {
     const cookieStore = cookies();

@@ -52,14 +52,22 @@ export default function SiteHeader() {
             </Link>
           ))}
         </nav>
-        <div className="hidden xl:flex">
+        <div className="hidden xl:flex items-center gap-3">
+          {!user && (
+            <Link
+              href="/login"
+              className="text-sm font-semibold text-slate-700 hover:text-clinic-600 transition px-3 py-2"
+            >
+              Entrar
+            </Link>
+          )}
           {user ? (
             <ButtonLink href="/dashboard" variant="primary">
               Participante
             </ButtonLink>
           ) : (
             <ButtonLink href="/#inscricao" variant="primary">
-              Login
+              Sing up
             </ButtonLink>
           )}
         </div>
@@ -91,9 +99,22 @@ export default function SiteHeader() {
                 Área do Participante
               </ButtonLink>
             ) : (
-              <ButtonLink href="/#inscricao" variant="primary">
-                Inscreva-se
-              </ButtonLink>
+              <div className="flex flex-col gap-2">
+                <Link
+                  href="/login"
+                  className="inline-flex items-center justify-center gap-2 rounded-lg bg-white/80 text-slate-700 ring-1 ring-slate-200 hover:bg-white px-5 py-3 text-sm font-semibold transition-all text-center"
+                  onClick={() => setIsOpen(false)}
+                >
+                  Entrar
+                </Link>
+                <Link
+                  href="/#inscricao"
+                  className="inline-flex items-center justify-center gap-2 rounded-lg bg-accent-500 text-white shadow hover:bg-accent-600 px-5 py-3 text-sm font-semibold transition-all text-center"
+                  onClick={() => setIsOpen(false)}
+                >
+                  Inscreva-se
+                </Link>
+              </div>
             )}
           </div>
         </div>

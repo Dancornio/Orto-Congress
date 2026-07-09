@@ -6,7 +6,7 @@ const globalForPg = global as typeof globalThis & {
 
 export const pool = globalForPg.pgPool ?? new Pool({
   connectionString: process.env.DATABASE_URL,
-  ssl: process.env.DATABASE_URL?.includes("sslmode=require")
+  ssl: process.env.DATABASE_URL?.includes("sslmode=require") || process.env.NODE_ENV === "production"
     ? { rejectUnauthorized: false }
     : undefined
 });
